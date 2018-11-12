@@ -1,0 +1,431 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html{
+    background-color: #fff;
+    color: #0b0b0b;
+    font-family: 'Lato','Arial',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+  }
+  
+
+
+
+  div{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .NYT-Home{
+    /* border: 5px solid red; */
+    margin: 0;
+    padding: 0;
+  
+  }
+  header{
+    width: 100%;
+    height: 15%;
+  
+  
+    /* border: 5px solid black; */
+  }
+  nav{
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid green; */
+    background-color: black;
+  }
+  .navigation-container{
+    float: left;
+    background-color: black;
+    /* border: 5px solid black; */
+    height: auto;
+    width: 35%;
+  
+  }
+  .logo{
+    width: 30%;
+  }
+  .logo img{
+    margin: 0px;
+    padding: 0px;
+    height: 93px;
+    width: 93px;
+    position: relative;
+    left: 170px;
+    top: 10px;
+    border-radius: 13px;
+  }
+  .menu{
+    background-color: black;
+    margin-top: 43px;
+    margin-bottom: 29px;
+    width: 40%;
+    position: relative;
+    /* top: 22px;
+    left: -90px; */
+    text-align: center;
+  }
+  
+  .menu li{
+    float: left;
+    /* border: 2px solid white; */
+    font-size: 15px;
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+  
+  }
+  .menu a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* border: 2px solid red; */
+  
+  }
+  
+  .languages, .contact{
+    float: left;
+    border: none;
+    background-color: black;
+    width: 10%;
+    position: relative;
+    margin-top: 38px;
+    margin-bottom: 29px;
+    /* top: 15px;
+    right: 50px; */
+  
+  }
+  .languages li, .contact li{
+    float: left;
+    list-style-type: none;
+    background-color: black;
+    border: none;
+  
+  
+  }
+  .languages img, .contact img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    background-color: black;
+    border: none;
+  }
+  
+  
+  
+  .languages button, .contact button{
+    border: none;
+    background-color: black;
+  
+  }
+  
+  .contact{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 29px;
+  }
+  
+  .home-container{
+    background-image: url("img/sample.jpg");
+    /* -webkit-filter: blur(5px);
+    filter: blur(3px); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85%;
+  }
+  
+  .NYT-Title{
+    /* border: 5px solid red; */
+    position: absolute;
+    margin-left: 379px;
+    margin-top: 150px;
+    margin-bottom: 206px;
+    font-size: 48px;
+    text-align: center;
+  
+  
+  }
+  
+  
+  
+  .NYT-Tours{
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: #120103;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  
+  }
+
+  .NYT-Bio{
+      width: 100%;
+      height: auto;
+      margin: 0%;
+     padding: 0%;
+     background-color: #0b0b0b;
+     color: #fff; 
+     
+      }
+
+  .biorow{
+    height: auto;
+  }
+ 
+.bioSection{
+  height: 50%;
+  /* border: #754242 solid 3px; */
+}
+
+.servSecPic{
+  background-image: url('../resources/img/serpic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 500px;
+}
+
+.serSecTextBox, .aboutSecTextBox, .aboutSecPic{
+  height: 500px;
+}
+
+.textBoxTitle, .textBoxTitle2{
+  /* border: red solid 2px; */
+  height: 91px;
+  margin-bottom: 10px;
+  
+}
+
+.textBoxTitle li, .textBoxTitle2 li{
+    float: left;
+    list-style-type: none;
+}
+.textBoxTitle h2{
+  width: 100%;
+  height: 100%;
+  /* border: red solid 2px; */
+  margin-right: 348px;
+  font-size: 58px;
+}
+.textBoxTitle img{
+  width: 100px;
+  height: 87px;
+  /* border: red solid 2px; */
+  
+}
+
+
+.textBoxTitle2 h2{
+  width: 100%;
+  height: 100%;
+  font-size: 58px;
+  /* border: red solid 2px; */
+  margin-right: 348px;
+
+}
+
+.fb{
+  width: 87px;
+  height: 87px;
+  /* border: red solid 2px; */
+}
+
+.insta{
+  width: 65px;
+  height: 65px;
+  margin-top: 10px;
+}
+
+.aboutSecPic{
+  background-image: url('../resources/img/about.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.NYT-ContactForm{
+  width: 100%;
+      height: auto;
+      margin: 0%;
+     padding: 0%;
+     background-image: url("../resources/img/contactpic.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.contactHeader{
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  height: 15%;
+  
+  
+}
+
+.contactHeader h3{
+  font-size: 58px;
+  
+}
+
+.contactHeader h4{
+  font-size: 24px;
+}
+
+.formContainer{
+ width: 100%;
+ height: 85%;
+ /* border: #f70e0e solid 2px; */
+ 
+ padding: 0%;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #0eb5f7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.formSection {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 25%;
+  height: 600px;
+  position: relative;
+  left: 25%;
+  top: 1%;
+}
+#Pnumber{
+
+margin-bottom: 5px;}
+
+
+
+  form{
+    height: auto;
+    /* border: #f70e0e solid 2px; */
+  }
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-top: 5px;
+}
+.container{
+  font-size: 16.5px;
+  width: auto;
+  
+}
+.checkboxContainer{
+  height: inherit;
+}
+
+.checkboxContainer li{
+  display: inline-block;
+  list-style: none;
+  width: auto;
+}
+
+
+ .cb1, .cb2{
+  height: auto;
+}
+
+.cb1{ margin-bottom: 5px; 
+
+}
+
+.footer {
+  height: auto;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ 
+  color: white;
+  text-align: center;
+}
+
+table {
+
+   border-bottom: black solid 1px;
+   background-color: black;
+   color: white;
+   width: 100%;
+}
+
+th{
+ height: 50px;
+   text-align: left;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+td {
+  padding-right: 30px;
+   font-size: 16px;
+   text-align: left;
+ 
+}
+
+tfoot {
+border-top: rgb(126, 126, 126) solid 3px;
+}
+
+
+/* Slideshow container */
+
+.NYT-Tours{
+  width: 100%;
+      height: auto;
+      margin: 0%;
+     padding: 0%;
+
+}
+.carousel{
+  background: #2f4357;
+  margin-top: 20px;
+}
+.carousel .item{
+  min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+  margin: 0 auto; /* Align slide image horizontally center */
+}
+
+
